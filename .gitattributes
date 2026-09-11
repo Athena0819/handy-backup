@@ -1,0 +1,9 @@
+# This file is used to override language statistics
+# Project-specific overrides
+*.yaml linguist-detectable=false
+*.html linguist-vendored
+public/*.html linguist-vendored
+**/*.py linguist-detectable
+*.gif binary 
+
+*.bat text eol=crlf
